@@ -1,0 +1,9 @@
+<?php
+	
+	function kasi_warna_merah($text) {
+		return "<span style='color:red;'>" . $text . "</span>";
+	}
+	
+	add_filter('kasi_warna_merah');
+	
+?>

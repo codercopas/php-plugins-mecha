@@ -1,0 +1,9 @@
+<?php
+	
+	function hurup_besar($text) {
+		return strtoupper($text);
+	}
+	
+	add_filter('hurup_besar');
+
+?>
